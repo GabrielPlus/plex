@@ -392,6 +392,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+#hero h3 {
+  color: rgba(255, 255, 255, 0.6);;
+}
+
 #hero .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -505,7 +509,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: rgba(248, 241, 241, 0.781);
 }
 
 .section-title {
@@ -553,16 +557,25 @@ section {
 # Cliens
 --------------------------------------------------------------*/
 .cliens {
-  padding: 12px 0;
-  text-align: center;
+
 }
+
+
 
 .cliens img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  filter: grayscale(100);
+  display: block;
+  
+  
+}
+
+.caption{
+  color: red;
+  padding-left: 34px;
+  padding-bottom: 34px;
+ 
+  
 }
 
 .cliens img:hover {
