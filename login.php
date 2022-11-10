@@ -8,8 +8,8 @@ if(isset($_POST['submit'])){
 
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = md5($_POST['password']);
-   $cpass = md5($_POST['cpassword']);
-   $waste_type = $_POST['waste_type'];
+   
+   
 
    $select = " SELECT * FROM waste WHERE email = '$email' && password = '$pass' ";
 
@@ -22,12 +22,12 @@ if(isset($_POST['submit'])){
       if($row['waste_type'] == 'Home'){
 
          $_SESSION['Home_name'] = $row['name'];
-         header('location:index.html');
+         header('location:Home.php');
 
       }elseif($row['waste_type'] == 'Industrial'){
 
          $_SESSION['Industrial_name'] = $row['name'];
-         header('location:index.html');
+         header('location:Industrial.php');
 
       }
      

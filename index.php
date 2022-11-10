@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,11 +48,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="">sign up</a></li>
           <li><a class="nav-link scrollto active" href="#hero"><span class="fa fa-home"> Home </span></a></li>
           <li><a class="nav-link scrollto" href="#about"><span class="fa fa-info-circle" aria-hidden="true"> About us</span></a></li>
-          <!--<li><a class="nav-link scrollto" href="phpGmailSMTP/trash.php"><span class="fa fa-trash"> Complain</span></a></li>-->
-          <!--<li><a class="nav-link scrollto"  href="adminlogin/welcome.php"><span class="fa fa-edit"> Preview Complain </span></a></li>-->          
           <li><a class="nav-link scrollto" href="#faq"><span class="fa fa-question-circle"> FAQ</span></a></li>
           <!--<li><a class="nav-link scrollto" href="logout-user.php"><span class="fas fa-sign-out-alt">Logout</span></a></li>-->
         </ul>
@@ -76,9 +71,8 @@
           proper disposal and recycling</h3>
       
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="user.php" class="glightbox btn-watch-video"><i class="bi bx-help-circle"></i><span>sign up</span></a>
-            <a href="https://youtu.be/mQ93IcGCag4" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="user.php" class="glightbox btn-watch-video"><i class="bi bx-help-circle"></i><span>Depose E-waste</span></a>
+            <a href="https://youtu.be/-uyIzKIw0xY" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -152,19 +146,19 @@
 
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Complaining about waste or garbage problems near their locality. </li>
-              <li><i class="ri-check-double-line"></i> See thier complain Report and check if the work is done! or not. </li>
-              <li><i class="ri-check-double-line"></i> people can take different ideas regarding recycling of waste through this website. </li>
+              <li><i class="ri-check-double-line"></i> <b>1</b>.Complaining about e-waste problems near their locality. </li>
+              <li><i class="ri-check-double-line"></i> <b>2</b>.See thier complain Report and check if the work is done! or not. </li>
+              <li><i class="ri-check-double-line"></i> <b>3</b>.people can take different ideas regarding recycling of electronic waste through this website. </li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Complaining about the waste problem encountered everyday to municipality is hefty process and waste management
+              Complaining about the e-waste problem encountered everyday to municipality is hefty process and waste management
                aims to make this process easier. With a simple handheld device with access to internet, user can use this platform complain 
                their concerns to municipality . The automated system will redirect the complains .The municipality admins at the receiving side can acknowledge
                 the reports which lets the users whether their complain is adddressed or not. 
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            
           </div>
         </div>
 
@@ -173,115 +167,50 @@
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
-      <div class="container-fluid" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-
             <div class="content">
-              <h3>Guidelines implementation  <strong>must for proper management of medical waste</strong></h3>
-              <p>
-                A hospital is the last resort of hope for sick people who expect to get better and heal.
-                However, shortcoming on the part of the hospital staff and management could instead have an adverse effect on public health.
-                According to the annual health report published by the Department of Health Services in 2000/2001, there are 74 hospitals,
-                172 Primary Health Care Units, 710 Health Posts and 3132 Sub-health Post run by the government across Nepal.
-                The number of healthcare institutions has certainly surged in the recent years.
-                All healthcare facilities are required to follow the ‘National Health Care Waste Management Guidelines’ 
-                prepared by the National Health Research Council (NHRC).
-            
+              <h3>Environment & Quality Policy</h3>
+              <p>The E-waste management system was established to manage the collection and recycling of ALL waste electrical and electronic equipment in <br>
+                such a way that would ensure the quality and environmental sustainability of e-waste management in mombasa <br> <br>
+                Our commitment to continually develop, improve and enhance our quality and environmental performance is based on the following principles: <br> <br>
+                <b>1.</b> Control the impact of our activities to minimize risk to our employees, visitors/contractors, suppliers, stakeholders, and the environment and community, 
+                through active planning, risk management, and pollution prevention strategies; <br>
+               <b>2.</b> Continuously strive to put our customers’ requirements at the core of everything that we do, providing an accountable, transparent, compliant, and cost-effective service that our customers are proud of; <br>
+              <b>3.</b> Protection of the environment, including prevention of pollution; fulfil the organization’s compliance obligations and other specific commitments relevant to the context of the organization and our strategic direction; <br>
+              <b>4.</b> Communicate relevant responsibilities and obligations to our employees, suppliers, and the community when affected by our business activities and provide awareness, training and resources to our teams where necessary; <br>
+            </p>
+                              
              </div>
-
-            <div class="accordion-list">
-              <ul>
-                <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>  “Wastes from health care institutions can be categorized as infectious or noninfectious." <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                    <p>
-                      Infectious wastes include human, animal, or biological wastes and any items that may be contaminated with pathogens.
-                       Noninfectious wastes include toxic chemicals, cytotoxic drugs, and radioactive, flammable, and explosive wastes,
-                       reads the guideline.  
-                   </p>
-                
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Implementation problem <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      However, not all hospitals are following the guidelines mainly because of the lack of budget, 
-                      lack of orientation regarding medical waste management to waste handlers, and flimsy monitoring from the government.
-                     Segregation of medical waste is a vital part of hospital waste management. Poor management of hospital waste poses 
-                     risk not only to its handlers during its treatment and disposal but also to the environment 
-                     if not disposed in a proper manner. Haphazard management of hospital waste also gives black marketers an opportunity
-                      to collect the disposed medical equipment and resell them.                     </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dr Kedar Century, Executive Director at Bir Hospital said, <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                       “We used to have an ideal waste management system to sterilize and dispose hospital waste before the 2015 earthquake. But the earthquake damaged the building where we had installed the autoclave device and now we don’t have any space. The new building is currently being used to accommodate admitted patients.”
-
-                      Dr Century added that lack of space has barred the hospital from following NHRC’s National Health Care Waste Management Guidelines and they are relying on traditional means of sterilization for the time being.
-                      
-                      Management of medical waste at private hospitals is poorer as compared to government run hospitals for want of regular monitoring from authorities concerned. A report published by the Ministry of Health and Population shows that private hospitals continue to burn, bury and dispose hazardous immunization waste mixing it up with the municipal waste.                    </p>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/Medical-Waste.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
-        </div>
-
-      </div>
     </section><!-- End Why Us Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/recycling5.png" class="img-fluid" alt="">
-          </div>
+        <div class="row">  
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Composition and Percentage of Waste Generation</h3>
             <p class="fst-italic">
-              Management of Municipal Solid Wastes: A Case Study in Limpopo Province, South Africa
+              Management of Municipal Solid Wastes: A Case Study in Mombasa County, Kenya
               
             </p>
 
             <div class="skills-content">
 
               <div class="progress">
-                <span class="skill">Plastics <i class="val">35%</i></span>
+                <span class="skill">Computers and Telecommunication gadgets<i class="val">35%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Paper and Glass <i class="val">25%</i></span>
+                <span class="skill">Home appliances<i class="val">25%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Food Waste  <i class="val">25%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Garden Waste<i class="val">15%</i></span>
+                <span class="skill">Dead and non-used electronics<i class="val">15%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -305,7 +234,7 @@
             <p> Here is the phone number of municipality.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="tel:+97716609952111">Call To Action</a>
+            <a class="cta-btn align-middle" href="tel:+254741535521">Call To Action</a>
           </div>
         </div>
 
@@ -318,87 +247,71 @@
 
         <div class="section-title">
           <h2>Frequently Asked Questions</h2>
-          <p>Waste management regulations and disposal methods.</p>
+          <p>E-Waste management regulations and disposal methods.</p>
         </div>
 
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> What is waste management? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1"> What is E-waste management? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                  Waste management is the collection, transportation and disposal of waste materials.                </p>
+                  E-waste management is a process to collect e-waste, recover and recycle material by safe methods, dispose of e-waste by suitable techniques                </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">   How do I practice waste management at home? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">   How do I practice e-waste management at home? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Keep separate containers for dry and wet waste in the kitchen.
-                  Keep two bags for dry waste collection- paper and plastic, for the rest of the household waste.
-                  Keep plastic from the kitchen clean and dry and drop into the dry waste bin. Keep glass /plastic containers rinsed of food matter.
-                  Keep a paper bag for throwing sanitary waste.                </p>
+                  <b>1.</b> Consider reducing the number of tech devices you own. <br>
+                  <b>2.</b> Extend the life of your electronics. <br>
+                  <b>3.</b> Buy environmentally friendly electronics. <br>
+                  <b>4.</b> Donate used electronics to social programs like on our website. <br>
+                  <b>5.</b> Reuse large electronics.
+                             </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"> What are the first few steps to initiate a waste management programme in your apartment complex?
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"> What are the first few steps to initiate an e-waste management programme in your apartment complex?
                 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
                   Form a group with like-minded people.
-                  Explain waste segregation to your family / neighbours in your apartment building.
+                  Explain e-waste segregation to your family / neighbours in your apartment building.
                   Get the staff in the apartment building to also understand its importance.
-                  Get separate storage drums for storing dry and wet waste.
-                  Have the dry waste picked up by the dry waste collection centre or your local scrap dealer.                </p>
+                  repair broken electronics
+                                </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the different types of waste? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What are the different types of e-waste? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                   1. Wet waste- Wet waste consists of kitchen waste - including vegetable and fruit peels and pieces, tea leaves, coffee grounds, eggshells, bones and entrails, fish scales, as well as cooked food (both veg and non-veg).
+                  <b>1.</b> Fridges, freezers and other cooling equipment.
                   <br><br>
-                  2. Dry Waste- Paper, plastics, metal, glass, rubber, thermocol, styrofoam, fabric, leather, rexine, wood – anything that can be kept for an extended period without decomposing is classified as dry waste.
+                  <b>2.</b> Computers and telecommunications equipment.
                   <br><br>
-                   3 .Hazardous waste- Household hazardous waste or HHW include three sub-categories – E-waste; toxic substances such as paints, cleaning agents, solvents, insecticides and their containers, other chemicals; and biomedical waste.
+                  <b>3.</b> Consumer electronic devices and solar panels.
                   <br><br>
-                  4. E-waste- E-waste or electronic waste consists of batteries, computer parts, wires, electrical equipment of any kind, electrical and electronic toys, remotes, watches, cell phones, bulbs, tube lights and CFLs.
+                  <b>4.</b> TVs, monitors and screens.
                   <br><br>
-                   5. Biomedical waste- This includes used menstrual cloth, sanitary napkins, disposable diapers, bandages and any material that is contaminated with blood or other body fluids. 
+                  <b>5.</b> Vending machines. 
                </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What are ways of storing the waste at homes? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">How do I dispose e-waste? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  1. Dry waste-                  
-                  Store it in a bag in the utility area after cleaning and drying till it is picked up. No food residue must be left in the bottles and packets. Clean them as you would to reuse them. If clothes are totally unusable, or very damaged, they are categorized as dry waste. If clothes are soiled with body fluids, they become sanitary waste. If they are soiled with paint, or any chemicals, they are HHW (household hazardous waste).
-                  
-                  <br><br> 2. E-waste-                  
-                  Store them in separate container which is kept closed, away from moisture and in which nothing else is put.                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="600">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">How do I dispose my waste? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  1. Compost your wet waste at home-
-
-                  Home composting can easily be done in any aerated container. Get more details on composting and begin composting today! 
+                <b>1.</b> Give Your Electronic Waste to a Certified E-Waste Recycler
                   <br><br>
-                  2 Compost your wet waste at the community level-
-                  
-                  If you live in a large apartment building, a community composting system like tank composting could be set up for all the wet waste from the residents. If not, the wet waste can be given out every day to your Municipality collection system.
-                  <br><br>
-                  3 Biomedical waste has to be wrapped separately in a newspaper and handed over to the municipality waste collection system. Expired medicines and injections, used syringes also have to be disposed in the same manner.
-                  
-                  Paint and other hazardous waste like cosmetics, mosquito repellents, tube lights etc have to be stored separately and handed over to the Municipal collection system.
-                </p>
+                <b>2.</b>   Sell Off Your Outdated Technology <br><br>
+                <b>3.</b> Donating Your Outdated Technology <br><br>
+                <b>4.</b> Give Back to Your Electronic Companies and Drop Off Points</p>
               </div>
             </li>
           </ul>
@@ -418,12 +331,9 @@
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3><img src="assets/img/clients/Capture.PNG" style="width:80px;height:60px;"></h3>
-            <p>
-              Mahendranagar <br>
-              kanchanpur, sudurpacchhim state<br>
-              Nepal <br><br>
-              <strong>Phone:</strong> +977 16609952111<br>
-              <strong>Email:</strong> <a href="mailto:info@bheemdattamun.gov.np bmuncipality@gmail.com">info@bheemdattamun.gov.np bmuncipality@gmail.com<br></a>
+            <br><br>
+              <strong>Phone:</strong> +254741535521<br>
+              <strong>Email:</strong> <a href="gabrielpius0311@gmail.com">gabrielpius0311@gmail.com<br></a>
             </p>
           </div>
 
@@ -434,7 +344,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#faq">FAQ</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
@@ -445,7 +354,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">E- managementwaste</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Garbage Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Awareness program</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Complain Hnadling </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Complain Handling </a></li>
             </ul>
           </div>
 
@@ -467,10 +376,10 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>WMS</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>hackathon</span></strong>.2022
       </div>
       <div class="credits">
-       Designed by <a href="">Janak Bista </a> and <a href="">Image Kunwar </a>
+       Designed by <a href="">Hackathon-Texas</a> and <a href="https://github.com/gabrielplus">gabriel pius</a>
       </div>
     </div>
   </footer><!-- End Footer -->
