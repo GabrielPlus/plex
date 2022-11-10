@@ -438,7 +438,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
-  border-radius: 30px;
 }
 
 @media (max-width: 991px) {
@@ -671,8 +670,7 @@ section {
   color: black;
   font-size: 14px;
   float: left;
-  font-family: sans-serif;
-  font-weight: 30%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 
@@ -1402,24 +1400,6 @@ section {
     margin: 0 auto 30px auto;
   }
 }
-
-
-
-/*------------------------------------------------------------
-# Processes
--------------------------------------------------------------*/
-.sec-bg {
-  background-color: rgba(40, 58, 90, 0.9);
-}
-.sec-title h2,p {
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-
-}
-
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions

@@ -59,3 +59,13 @@
 .form-container form p a {
     color: #fff;
 }
+
+
+.form-container form .sin{
+    margin: 10px 0;
+    display: block;
+    background-color: crimson;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
