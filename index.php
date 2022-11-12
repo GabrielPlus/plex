@@ -42,7 +42,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">E-Waste Management System</a></h1>
+      <h1 class="logo me-auto"><a href="index.html">E-Waste</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
@@ -71,14 +71,17 @@
           proper disposal and recycling</h3>
       
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="user.php" class="glightbox btn-watch-video"><i class="bi bx-help-circle"></i><span>Depose E-waste</span></a>
+            <a href="user.php" class="glightbox btn-watch-video"><i class="bi bx-help-circle"></i><span>support us</span></a>
             <a href="https://youtu.be/-uyIzKIw0xY" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/fum.jpg" class="img-fluid animated" alt="">
         </div>
       </div>
+
+      
     </div>
 
   </section><!-- End Hero -->
@@ -358,16 +361,12 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Follow us in our social media to stay updated about community waste management.</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
+          <div class="support">
+
+          <p>By pressing on the support button, we will send you you mails and update you on <br>
+          what's happening. <br><br>
+          Also you will be one of our members to help us curb the menace of e-waste
+          </p>
           </div>
 
         </div>

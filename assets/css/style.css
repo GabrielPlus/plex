@@ -374,6 +374,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #37517e;
 }
 
+.support {
+  color: #fff;
+}
+
 #hero .container {
   padding-top: 72px;
 }

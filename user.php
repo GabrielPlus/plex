@@ -13,11 +13,8 @@ if(isset($_POST['submit'])) {
 
     $result = mysqli_query($conn, $select);
 
-    if(mysqli_num_rows($result) > 0) {
 
-        $error[] = 'User already exist!';
 
-    }else {
 
         if($pass != $cpass) {
             $error[] = 'Password not matched!';
@@ -26,7 +23,7 @@ if(isset($_POST['submit'])) {
             mysqli_query($conn, $insert);
             header('location:login.php');
         }
-    }
+    
 
 };
 
@@ -40,13 +37,13 @@ if(isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deposit E-waste form</title>
+    <title>E-waste form</title>
     <link rel="stylesheet" href="assets\css\user.css">
 </head>
 <body>
     <div class="form-container">
         <form action="" method="post">
-           <h3>Deposit E-waste now</h3>
+           <h3>Dispose your E-waste here</h3>
            <?php
 
            if(isset($error)){
@@ -60,14 +57,16 @@ if(isset($_POST['submit'])) {
 
            <input type="text" name="name" required placeholder="Enter your name"> 
            <input type="email" name="email" required placeholder="Enter your email">
-           <input type="password" name="password" required placeholder="Enter your password">
-           <input type="password" name="cpassword" required placeholder="confirm your password">
+           <input type="text" name="location" required placeholder="enter location">
+           <p>E-waste to depose</p>
            <select name="waste_type">
                 <option value="Home">Home</option>
                 <option value="Industrial">Industrial</option>
+                <option value="computers">computers</option>
+                <option value="Vending machines">Vending machines</option>
            </select>
-           <input type="submit" name="submit" value="register now" class="form-btn">
-           <p>already have an account at E-waste? <a href="login.php">login now</a></p>
+           <input type="submit" name="submit" value="submit" class="form-btn">
+          
         </form>
     </div>
 </body>
