@@ -1,0 +1,63 @@
+.spotlight {
+	height: 100vh;
+	min-height: 80rem;
+	background-image: url(../media/live-sports-small.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 2rem;
+}
+
+.spotlight__content {
+	text-align: center;
+	padding: 0 2rem;
+}
+
+.spotlight__header {
+	display: inline-block;
+	margin: 6rem 0;
+	border-bottom: 0.6rem solid white;
+	padding-bottom: 1rem;
+	text-transform: uppercase;
+}
+
+.spotlight__title {
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: 4rem;
+	margin: 2rem 0;
+}
+
+.spotlight__description {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+.channel__stack {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 55rem;
+}
+
+.channel__item {
+	background-image: url(../media/network-logo-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 8rem;
+	width: 8rem;
+	display: grid;
+	place-items: center;
+	margin-right: 2rem;
+	margin-top: 3rem;
+}
+
+.channel__icon {
+	width: 70%;
+	height: 70%;
+	object-fit: contain;
+}

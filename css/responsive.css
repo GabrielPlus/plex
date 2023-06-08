@@ -1,0 +1,68 @@
+/* sm=600 */
+/* md=900 */
+/* lg=1200 */
+/* xl=1600 */
+
+@media screen and (min-width: 600px) {
+	.library__title {
+		font-size: 6rem;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.library__grid {
+		grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+		justify-content: center;
+	}
+
+	.spotlight {
+		background-image: url(../media/live-sports.jpg);
+		display: grid;
+		align-items: center;
+	}
+
+	.spotlight__content {
+		padding: 0;
+		text-align: left;
+		max-width: 50rem;
+		padding-left: 10rem;
+	}
+
+	.spotlight__header {
+		margin-bottom: 5rem;
+	}
+
+	.expand__section__icon {
+		display: none;
+	}
+
+	.footer__section__links {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	}
+
+	.footer__section__container {
+		display: grid;
+		grid-template-columns: 3fr 1fr 1fr;
+	}
+
+	.footer__section__title {
+		cursor: auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.login__modal {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.footer {
+		padding: 0 15rem;
+	}
+}
